@@ -24,8 +24,8 @@ for GUESS in range(1, 4):
             print("oww...,you're very close", '\n have another try')
 
     else:
-        print(f'You guesed it right in {GUESS})
+        print('You guesed it right in', str(GUESS))
 
 print('Haha poor boy')
-print(f'The number was {Random})
+print('The number was ', Random)
 
